@@ -17,6 +17,12 @@ Embedding Visualizer (EmbedViz) is a data app made with [Streamlit](https://gith
   <img width="550" height="280" src="https://github.com/prakhar21/EmbedViz-Streamlit/blob/master/embedviz.gif">
 </p>
 
+<p align="center">
+  <img width="750" height="400" src="https://github.com/prakhar21/EmbedViz-Streamlit/blob/master/embedviz1.png">
+</p>
+<p align="center">
+  <img width="750" height="400" src="https://github.com/prakhar21/EmbedViz-Streamlit/blob/master/embedviz2.png">
+</p>
 ## Things to do
 1. Implement TSNE function
 2. Write Blog

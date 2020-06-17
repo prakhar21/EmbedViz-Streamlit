@@ -1,4 +1,4 @@
-# EmbedViz made with Streamlit
+# EmbedViz
 <p align="center">
   <img width="450" height="260" src="https://github.com/prakhar21/EmbedViz-Streamlit/blob/master/feature.png">
 </p>

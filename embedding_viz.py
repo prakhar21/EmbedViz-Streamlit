@@ -25,7 +25,7 @@ embeddings = ("Word2Vec 1k", "GloVe 1k")
 options = list(range(len(embeddings)))
 embedding_type = st.sidebar.selectbox("Select Embeddings", options, format_func=lambda x: embeddings[x])
 st.sidebar.text('OR')
-uploaded_file = st.sidebar.file_uploader("Upload a file (Optional)", type="csv")
+uploaded_file = st.sidebar.file_uploader("Upload a file (Optional)", type="txt")
 
 def load_data(embedding_type):
 	if embedding_type==0:
@@ -37,7 +37,14 @@ def load_data(embedding_type):
 	labels = [d[0] for d in data]
 	data = np.array([d[1:] for d in data])
 	return data, labels
-data, labels = load_data(embedding_type)
+
+if not uploaded_file:
+	data, labels = load_data(embedding_type)
+else:
+	df = pd.read_table(uploaded_file, sep='\s')
+	data = df.values.tolist()
+	labels = [d[0] for d in data]
+	data = np.array([d[1:] for d in data])
 	
 
 ## dimension reductions

@@ -14,6 +14,7 @@ Embedding Visualizer (EmbedViz) is a data app made with [Streamlit](https://gith
 
 ## Things to do
 1. Implement TSNE function
+2. Write Blog
 
 ## Future Prospects
 1. Add __KNN__ search for neighbourhood lookup.

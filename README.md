@@ -6,9 +6,11 @@
 Embedding Visualizer (EmbedViz) is a data app made with [Streamlit](https://github.com/streamlit/streamlit) library. 
 
 ## Getting Started
-1. git clone https://github.com/prakhar21/EmbedViz-Streamlit
-2. `pip install streamlit`
-3. streamlit run embedding_viz.py
+```
+> git clone https://github.com/prakhar21/EmbedViz-Streamlit
+> pip install streamlit
+> streamlit run embedding_viz.py
+```
 
 ## Things to do
 1. Implement TSNE function

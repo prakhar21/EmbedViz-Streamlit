@@ -30,10 +30,6 @@ __P.S. No Web component knowledge is required ;) It's just Python__
   <img width="750" height="400" src="https://github.com/prakhar21/EmbedViz-Streamlit/blob/master/embedviz2.png">
 </p>
 
-## Things to do
-1. Implement TSNE function
-2. Write Blog
-
 ## Future Prospects
 1. Add __KNN__ search for neighbourhood lookup.
 2. Adding more dimensions such as __size and color gradient__.
